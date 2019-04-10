@@ -1,0 +1,18 @@
+* {
+box-sizing: border-box;
+font-family: Verdana, Geneva, sans-serif;
+margin: 0;
+}
+/*...*/
+#missatges tr {
+background-color: #97CAEF;
+padding: 2px 8px;
+}
+#missatges tr:nth-child(odd) {
+background-color: #CAFAFE;
+}
+/*...*/
+#errors {
+background-color: #FC4445;
+padding: 2px 8px;
+}
