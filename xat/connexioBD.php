@@ -1,7 +1,7 @@
 <?php
 
 // Connecta amb la BD 'my_db'
-$con = mysqli_connect("localhost", "root", "", "xat");
+$con = mysqli_connect("localhost", "{passwordHere}", "", "xat");
 
 // Comprova la connexió
 if (mysqli_connect_errno()) {
